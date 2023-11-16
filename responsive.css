@@ -1,0 +1,245 @@
+@media screen and (max-width: 478px) {
+    #hidemedia {
+        display: none;
+    }
+    #animationSection{
+        display: contents;
+    }
+    #rollingimg{
+        width: 100%;
+    }
+    #rollingimgdiv{
+        width: 2.7em;
+        height: 2.7em;
+        margin-left: 9em;
+    }
+    #madeindiv1{
+        display: flex;
+        margin-left: 1em;
+        margin-top: 0.5em;
+        /* column-gap: 1em; */
+    }
+    
+    #madeindiv2{
+        display: flex;
+    }
+    #madein{
+        font-size: 1em;
+        margin-top: 0.4em;
+        width: 60%;
+        padding-right: 0.2em;
+    }
+    #lineimg{
+        width: 60%;
+    }
+    #lineimg2{
+        width: 50%;
+        padding-left: 1em;
+    }
+    #buydiv{
+        flex-direction: column;
+        padding-right: 0em;
+        padding-left: 0em;
+        margin-top: 3em;
+        margin-bottom: 3.5em;
+        row-gap: 1em;
+        margin-left: 1em;
+        width: 90%;
+    }
+    #vunuetext{
+        font-size: 1.5em;
+    }
+    #vunuetext2{
+        font-size: 1em;
+        padding-top: 0.7em;
+    }
+    #gradient{
+        margin-left: 1em;
+    }
+    #about{
+        flex-direction: column;
+        margin-left: 1em;
+        margin-right: 0em;
+        margin-top: 0em;
+        padding-right: 0em;
+    }
+    #aboutimg{
+        width: 90%;
+        margin-right: 0;
+        font-size: 0.73em;
+    }
+    #aboutimgimg{
+        margin-top: 0;
+    }
+    #posterimg{
+        width: 100%;
+    }
+    #posterimgdiv{
+        width: 100%;
+        padding-right: 1em;
+        margin-bottom: 1em;
+    }
+    #venue{
+        font-size: 1.2em;
+    }
+    #venuediv{
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+    #venueimg{
+        height: 15em;
+    }
+    #inter{
+        font-size: 1.2em;
+        color: white;
+        position: absolute;
+        top: 5em;
+        left: 1em;
+    }
+    #spec{
+        font-size: 1em;
+    }
+    #speakerdiv{
+        margin-left: 1em;
+    }
+    #tickethr{
+        margin-left: 1em; 
+        margin-right: 3em; 
+        margin-bottom: 4.5em;
+    }
+    #speakertext{
+        font-size: 1.2em;
+    }
+    #speakertext2{
+        font-size: 0.7em;
+    }
+    #speakertext3{
+        font-size: 0.6em;
+    }
+    #Securetext{
+        font-size: 1em;
+        line-height: 1.8em;
+        word-spacing: 0.7em;
+    }
+    #ticketimg{
+        margin-left: 0;
+        width: 17em;
+    }
+    #tickettext{
+        font-size: 1.5em;
+    }
+    #Ticketlist{
+        flex-direction: column;
+        margin-top: 2em;
+        row-gap: 2em;
+        margin-bottom: 4em;
+    }
+    #regticket{
+        background-color: green;
+        width: 90%;
+        border-radius: 1em;
+        padding-left: 0.5em;
+        padding-top: 2em;  
+        margin-top: 0em;
+        margin-left: 1em;
+        color: white;
+    }
+    #vipticket{
+        background-color: #ffcd55;
+        width: 90%;
+        border-radius: 1em;
+        padding-left: 0.5em;
+        padding-top: 2em;
+    }
+    #staticket{
+        width: 90%;
+        margin-top: 0;
+        background-color: blue;
+        color: white;
+    }
+    #goldSponsorImage{
+    margin-right: 3em;
+    width: 25%;
+    }
+    @keyframes goldsponsor {
+        from {
+            transform: translateX(400px);
+        }
+        to {
+            transform: translate(-500px,0px);
+        }
+    }
+    #techprize{
+        height: 33em;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    #techprizetext{
+        margin-top: 5em;
+    }
+    #laptopimg{
+        width: 17%;
+        height: 4em;
+        margin-top: 9em;
+        margin-left: 0.5em;
+    }
+    
+    #girlie{
+        width: 70%;
+    }
+    
+    #watchimg{
+        width: 15%;
+        height: 3.5em;
+        transition: 0.7s;
+    }
+    #partnerheader{
+        margin-left: 0.7em; 
+        color: #224093; 
+        margin-bottom: 1.3em;
+        font-size: 2em;
+    }
+    @keyframes partner {
+        from {
+            transform: translateX(800px);
+        }
+        to {
+            transform: translate(-500px,0px);
+        }
+    }
+    #PartnerImage{
+        width: 6em;
+        margin-right: 3em;
+        animation: partner 25s linear infinite;
+    }
+    #flexDiv{
+        margin-bottom: 4em;
+    }
+    #footerIcon{
+        width: 1.3em;
+        margin-right: 0.8em;
+    }
+    #footerText{
+        color: white;
+        font-size: 1.1em;
+        margin-left: 0.5em;
+        padding-top: 1.3em;
+        text-decoration: none;
+    }
+    #footer{
+        display: block;
+        align-content: center;
+        height: 8em;
+        line-height: 0.1em;
+    }
+    #footerLink{
+        margin-left: 0.2em;
+    }
+    #footerFollow{
+        font-size: 1.1em;
+        margin-left: 5em;
+    }
+    #footerIconDiv{
+        margin-left: 6em;
+    }
+}
