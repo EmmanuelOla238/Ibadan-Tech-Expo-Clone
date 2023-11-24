@@ -1,4 +1,17 @@
 @media screen and (max-width: 478px) {
+    #header{
+        padding-left: 1.3em;
+        padding-right: 4em;
+        padding-bottom: 1.7em;
+        width: 100%;
+    }
+    #firstlogo{
+        width: 4em;
+        margin-top: 2em;
+    }
+    .menu-btn{
+        display: block;
+    }
     #hidemedia {
         display: none;
     }

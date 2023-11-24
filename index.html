@@ -24,6 +24,13 @@
             <div id="hidemedia"><button class="btn btn-warning h-75 mt-4 pe-4 ps-4 shadow-sm" id="pagesbtn">Get
                     Ticket</button></div>
         </div>
+        <div class="menu-btn" onclick="toggleMenu()">☰ </div>
+        <div class="menu">
+          <a href="#">Speakers</a>
+          <a href="#">Contact</a>
+          <a href="#">Venue</a>
+          <a href=""><button id="menuGetButton">Get Ticket</button></a>
+        </div>
     </header>
     <img src="Image/ibd-7e92bb92.svg" alt="" class="w-100 ps-4 pe-5 pt-5">
     <section id="animationSection">
@@ -57,7 +64,6 @@
     <section id="about">
         <div id="aboutimg">
             <img src="Image/tit-514f3678.svg" alt="" id="aboutimgimg">
-            <hr id="abouthr">
             <p class="mt-4 " style="font-weight: 500; color: #224093;">Welcome to Ibadan Tech Expo - a dynamic and
                 vibrant gathering that celebrates the world of technology and innovation in Ibadan, Nigeria's largest
                 city by landmass. The Ibadan Tech Expo aims to create an inclusive and engaging environment that brings
@@ -72,7 +78,6 @@
 
     <div id="venue"><b>Venue</b></div>
     <section id="venuediv">
-        <hr id="abouthr" style="color: #fdb915;"><br><br>
         <div class="w-100 mb-5"><img src="Image/Venue-1-38edfbf0.png" alt="" class="w-100" id="venueimg"></div>
         <p id="inter">International Conference Center <br>University Of Ibadan (ICC)</p>
     </section>
@@ -81,9 +86,8 @@
         <p class="" style="color: #224093; font-size: 0.7em;">VIEW ALL SPEAKERS</p>
     </div>
 
-    <hr id="abouthr" class="ms-2 ms-lg-5 me-5" style="color: #fdb915;"><br><br>
     <section>
-        <div class="row ms-lg-5 ms-1 me-5" style="line-height: 0.6em;">
+        <div class="row ms-lg-5 ms-1 me-lg-5 me-1" style="line-height: 0.6em;">
             <div class="col-lg-3 col-6 ">
                 <img src="Image/speaker1.png" alt="" class="w-100">
                 <h2 id="speakertext" style="margin-top: 0.4em;">Hon. Akin Alabi</h2>
@@ -106,7 +110,7 @@
                 <p id="speakertext3">Director POTTV Media</p>
             </div>
         </div>
-        <div class="row ms-lg-5 ms-1 me-5 mt-4" style="line-height: 0.6em;">
+        <div class="row ms-lg-5 ms-1 me-lg-5 me-1 mt-4" style="line-height: 0.6em;">
             <div class="col-lg-3 col-6">
                 <img src="Image/speaker5.png" alt="" class="w-100">
                 <h2 id="speakertext" style="margin-top: 0.4em;">Sanmi Adebunmi</h2>
@@ -128,7 +132,7 @@
                 <p id="speakertext3">Media Personality</p>
             </div>
         </div>
-        <div class="row ms-lg-5 ms-1 me-5 mt-5" style="line-height: 0.6em;">
+        <div class="row ms-lg-5 ms-1 me-lg-5 me-1 mt-5" style="line-height: 0.6em;">
             <div class="col-lg-3 col-6">
                 <img src="Image/speaker9.png" alt="" class="w-100">
                 <h2 id="speakertext" style="margin-top: 0.4em;">Olugbenga Ogunbowale</h2>
@@ -150,7 +154,7 @@
                 <p id="speakertext3">Cofounder - Shiip</p>
             </div>
         </div>
-        <div class="row ms-lg-5 ms-1 me-5 mt-5" style="line-height: 0.6em;">
+        <div class="row ms-lg-5 ms-1 me-lg-5 me-1 mt-5" style="line-height: 0.6em;">
             <div class="col-lg-3 col-6">
                 <img src="Image/speaker13.png" alt="" class="w-100">
                 <h2 id="speakertext" style="margin-top: 0.4em;">Olumide Omotoso</h2>
@@ -172,7 +176,7 @@
                 <p id="speakertext3">Founder:CodeSchool Africa</p>
             </div>
         </div>
-        <div class="row ms-lg-5 ms-1 me-5 mt-5" style="line-height: 0.6em;">
+        <div class="row ms-lg-5 ms-1 me-lg-5 me-1 mt-5" style="line-height: 0.6em;">
             <div class="col-lg-3 col-6">
                 <img src="Image/speaker17.png" alt="" class="w-100">
                 <h2 id="speakertext" style="margin-top: 0.4em;">Oluwamayowa Oshidero</h2>
@@ -191,8 +195,7 @@
         </div>
     </section>
     <div>
-        <h1 class="display-lg-1 display-sm-3  fw-bold mt-5 ms-lg-5 ms-3" style="color: #224093;"><b>Tickets</b></h1>
-        <hr id="tickethr">
+    <h1 class="display-lg-1 display-sm-3  fw-bold mt-5 ms-lg-5 ms-3" style="color: #224093;  border-bottom: 2px #fdb915 solid; margin-right: 6em; padding-bottom: 0.5em;"><b>Tickets</b></h1>
     </div>
     <section class="row ms-0 ms-lg-5 me-5">
         <div class=" col-lg-6 col-12">
@@ -328,6 +331,7 @@
 
 
     <script src="bootstrap.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
